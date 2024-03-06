@@ -18,7 +18,7 @@ formData.addEventListener("submit", (e)=>{
         const hex = color.hex.value
         
         document.getElementById(`color-${index+1}`).style.backgroundColor = hex
-        document.getElementById(`color-${index+1}`).textContent = hex
+        document.getElementById(`text-${index+1}`).textContent = hex
     }))
 })
 
