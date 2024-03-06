@@ -8,9 +8,16 @@
 </head>
 <body>
     <main>
+        <form id="form-data">
         <div class="color-selection">
-            <input type="color" name="color" class="color-picker">
-            <select name="color-value" id="color-value" class="select-box">
+            <input 
+            type="color" 
+            name="color" 
+            class="color-picker" 
+            id="color-picker" 
+            value="#0447AB">
+
+            <select name="color-mode" id="color-mode" class="select-box">
                 <option value="monochrome">Monochrome</option>
                 <option value="monochrome-dark">Monochrome dark</option>
                 <option value="monochrome-light">Monochrome light</option>
@@ -23,13 +30,16 @@
             <button class="btn">Get color scheme</button>
         </div>
 
-        <div class="colors">
-            <div class="color-1">#F55F5A</div>
-            <div class="color-2">#2B283A</div>
-            <div class="color-3">#FBF3AB</div>
-            <div class="color-4">#AAd1B6</div>
-            <div class="color-5">#A626D3</div>
+        <div class="colors" id="colors">
+            <div class="color-1" id="color-1">#F55F5A</div>
+            <div class="color-2" id="color-2">#2B283A</div>
+            <div class="color-3" id="color-3">#FBF3AB</div>
+            <div class="color-4" id="color-4">#AAd1B6</div>
+            <div class="color-5" id="color-5">#A626D3</div>
         </div>
+        </form>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
