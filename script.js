@@ -30,7 +30,7 @@ document.querySelectorAll(".text").forEach((copy) =>{
 
         const copyHex = document.createElement("div")
         copyHex.classList.add("copy-div")
-        copyHex.textContent = "copied to clipboard"
+        copyHex.textContent = "Copied!!"
         e.target.appendChild(copyHex)
         setTimeout(()=> e.target.removeChild(copyHex), 500)
     })

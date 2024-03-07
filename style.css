@@ -123,11 +123,10 @@ button:hover{
 
 .copy-div{
     font-family: "Open Sans", sans-serif;
-    width: 80%;
+    width: 90%;
     color: #fff;
     background-color: #1F2937;
     border-radius: 8px;
     margin: 0 auto;
-    margin-top: 1em;
     padding: .2em 0;
 }
