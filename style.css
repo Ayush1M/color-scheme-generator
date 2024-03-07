@@ -30,10 +30,14 @@ button{
 select{
     padding: .5em;
     font-size: 1.1em;
+    background-color: #1F2937;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
 }
 
 button:hover{
-    background-color: #505050;
+    background-color: #1F2937;
     color: #fff;
 }
 
@@ -49,7 +53,7 @@ button:hover{
     justify-content: space-between;
     padding: 2em;
     width: 80%;
-    background-color: #fff;
+    background-color: #1F2937;
 }
 
 .color-picker{
@@ -69,7 +73,22 @@ button:hover{
 
 .text{
     font-size: 1.2em;
-    margin-top: 1em;
+    padding-top: 1em;
+    background-color: #1F2937;
+    font-weight: bold;
+}
+
+.text:hover{
+    background-color: #fff;
+    color: #1F2937;
+}
+
+#text-1,
+#text-2,
+#text-3,
+#text-4,
+#text-5{
+    cursor: pointer;
 }
 
 
@@ -100,4 +119,15 @@ button:hover{
 
 .color-names ul li{
     list-style-type: none;
+}
+
+.copy-div{
+    font-family: "Open Sans", sans-serif;
+    width: 80%;
+    color: #fff;
+    background-color: #1F2937;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 1em;
+    padding: .2em 0;
 }
